@@ -1,0 +1,6 @@
+{
+  "name": "صفحة الخدمات العقارية المتكاملة",
+  "description": "منصة عقارية تفاعلية لحساب التقييم المجاني للعقارات، البحث عن الفلل والشقق والأراضي، واستقبال طلبات الشراء والاستشارات العقارية المباشرة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
