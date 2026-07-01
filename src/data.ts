@@ -113,24 +113,6 @@ export const MOCK_PROPERTIES: Property[] = [
     features: ['شلالات ومسطحات مائية', 'ديوانية خارجية واسعة', 'قريب من الحرام', 'قبو كبير للسيارات', 'جناح نوم رئيسي ضخم'],
     isFeatured: false,
     isPopular: false
-  },
-  {
-    id: 'prop-7',
-    title: 'أرض استثمارية تجارية على طريق الملك خالد',
-    description: 'أرض تجارية مميزة جداً في الخبر على طريق الملك خالد الساحلي مباشرة. موقع استثنائي مرخص لبناء مجمع تجاري أو أبراج مكتبية أو فندق بوتيك، بنية تحتية متكاملة وجاهزة لبدء التطوير فوراً.',
-    price: 12500000,
-    location: 'طريق الملك خالد، الخبر',
-    city: 'Khobar',
-    cityAr: 'الخبر',
-    type: 'land',
-    typeAr: 'أرض',
-    beds: 0,
-    baths: 0,
-    size: 1200,
-    imageUrl: 'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80',
-    features: ['على طريق رئيسي', 'واجهة 40 متر', 'ترخيص متعدد الأدوار', 'عائد استثماري متوقع مرتفع', 'رخصة بناء جاهزة'],
-    isFeatured: false,
-    isPopular: true
   }
 ];
 

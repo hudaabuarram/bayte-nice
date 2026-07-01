@@ -41,10 +41,10 @@ export default function Hero({ onSearch }: HeroProps) {
         <img
           src="/src/assets/images/hero_luxury_villa_1782852766190.jpg"
           alt="Luxury architectural villa"
-          className="h-full w-full object-cover object-center opacity-40 scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
+          className="h-full w-full object-cover object-center opacity-65 scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
           referrerPolicy="no-referrer"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent z-10"></div>
         <div className="absolute inset-0 bg-gradient-to-l from-slate-950 via-transparent to-transparent z-10"></div>
       </div>
 
