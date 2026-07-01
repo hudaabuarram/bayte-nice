@@ -4,6 +4,9 @@
  */
 
 import { Property, Article, Lead } from './types';
+import villaRiyadh from './assets/images/villa_riyadh_1782852782935.jpg';
+import apartmentJeddah from './assets/images/apartment_jeddah_1782852796512.jpg';
+import townhouseKhobar from './assets/images/townhouse_khobar_1782852809323.jpg';
 
 export const MOCK_PROPERTIES: Property[] = [
   {
@@ -19,7 +22,7 @@ export const MOCK_PROPERTIES: Property[] = [
     beds: 5,
     baths: 6,
     size: 420,
-    imageUrl: '/src/assets/images/villa_riyadh_1782852782935.jpg',
+    imageUrl: villaRiyadh,
     features: ['مسبح خاص', 'نظام سمارت هوم', 'تكييف مركزي', 'حديقة واسعة', 'ملحق خارجي', 'موقف لسيارتين'],
     isFeatured: true,
     isPopular: true
@@ -37,7 +40,7 @@ export const MOCK_PROPERTIES: Property[] = [
     beds: 3,
     baths: 4,
     size: 260,
-    imageUrl: '/src/assets/images/apartment_jeddah_1782852796512.jpg',
+    imageUrl: apartmentJeddah,
     features: ['إطلالة بحرية', 'حراسة 24/7', 'نادي صحي مشترك', 'شرفة واسعة', 'أجهزة مطبخ مدمجة', 'موقف خاص'],
     isFeatured: true,
     isPopular: true
@@ -55,7 +58,7 @@ export const MOCK_PROPERTIES: Property[] = [
     beds: 4,
     baths: 5,
     size: 310,
-    imageUrl: '/src/assets/images/townhouse_khobar_1782852809323.jpg',
+    imageUrl: townhouseKhobar,
     features: ['فناء خلفي خاص', 'منطقة شواء', 'نظام إنذار حرائق', 'موقع هادئ ورائع', 'غرفة خادمة', 'خزائن ملابس مدمجة'],
     isFeatured: true,
     isPopular: false

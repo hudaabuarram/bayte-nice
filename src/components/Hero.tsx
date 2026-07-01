@@ -6,6 +6,7 @@
 import { useState, FormEvent } from 'react';
 import { Search, Building, MapPin, BedDouble, CircleDollarSign, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
+import heroImg from '../assets/images/hero_luxury_villa_1782852766190.jpg';
 
 interface HeroProps {
   onSearch: (filters: {
@@ -39,7 +40,7 @@ export default function Hero({ onSearch }: HeroProps) {
       {/* Background Image with elegant overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero_luxury_villa_1782852766190.jpg"
+          src={heroImg}
           alt="Luxury architectural villa"
           className="h-full w-full object-cover object-center opacity-65 scale-105 animate-[subtle-zoom_20s_infinite_alternate]"
           referrerPolicy="no-referrer"
