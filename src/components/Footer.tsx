@@ -161,12 +161,20 @@ export default function Footer() {
         </div>
 
         {/* Footer bottom */}
-        <div className="border-t border-white/10 pt-8 mt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 text-center text-xs text-slate-500 font-bold">
-          <p>© {currentYear} شركة بيتي نايس العقارية. جميع الحقوق محفوظة.</p>
-          <div className="flex items-center justify-center gap-1.5">
-            <span>صُنع بشغف لخدمة المواطن والمستثمر</span>
-            <Heart className="h-3.5 w-3.5 text-red-500 fill-current" />
-          </div>
+        <div className="border-t border-white/10 pt-8 mt-8 flex items-center justify-center text-center text-xs text-slate-500 font-bold">
+          <p>
+            © 2026 All rights reserved by{' '}
+            <a
+              href="https://oxa-code-website.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:text-blue-400 transition-colors"
+              id="oxa-code-link"
+            >
+              oxa code
+            </a>
+            . Made with love and care.
+          </p>
         </div>
 
       </div>
